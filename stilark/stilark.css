@@ -171,6 +171,7 @@ label #X{
 }
 
 /* HERO */
+
 .content .bilde {
     width: 100%;
     text-align: left;
@@ -221,47 +222,47 @@ h3 {
 }
 .card {
     position: relative;
-    width: 33%;
-    height: 370px;
-    transition: 0.3s ease-out;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 5px;
+    height: 370px;
+    width: 33%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-out;
+
+
 }
 .card .imgbox {
     position: relative;
+    height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
 }
 .card .imgbox img{
+    display: block;
     position: absolute;
+    height: 80%;
+    width: 100%;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 80%;
-    display: block;
     transition: 0.5s;
 }
 .card .konteiner {
     position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    padding: 12px;
-    background: #9e1c36;
-    transition: all 0.5s cubic-bezier(.48,-0.28,0.41,1.4);
     box-sizing: border-box;
     overflow: hidden;
-
-}
-.card:hover .konteiner {
+    background: #9e1c36;
+    padding: 12px;
+    height: 100px;
     width: 100%;
-    height: 75%;
     left: 0;
     bottom: 0;
-
+    transition: all 0.5s cubic-bezier(.48,-0.28,0.41,1.4);
+}
+.card:hover .konteiner {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75%;
 }
 h5 {
     text-align: center;
@@ -272,12 +273,13 @@ h5 {
 }
 
 .konteiner p {
-    transition: 0.3s;
-    transform: translateY(2em);
+    text-decoration: none;
     text-align: justify;
+    transform: translateY(2em);
+    transition: 0.5s;
     opacity: 0;
     color: #fafafa;
-    text-decoration: none;
+
 }
 .konteiner a:visited {
     text-decoration: none;
@@ -294,43 +296,7 @@ h5 {
     margin: 0 10px 0 10px;
 }
 
-/*
-
-.cards_container img {
-    width: 80%
-}
-.cards_child2 {
-    background-color: #fafafa;
-    box-sizing: border-box;
-    width: 33.3333%;
-}
-.cards_child {
-    background-color: #efefef;
-    box-sizing: border-box;
-    width: 33.3333%;
-    height: 300px;
-}
-.cards_title {
-    color: #9e1c36;
-    margin: 20px 0 5px 50px;
-    font-weight: 600;
-    font-size: 15px;
-    text-align: left;
-}
-
-.cards_text {
-    color: #9e1c36;
-    font-weight: 200;
-    font-size: 12px;
-}
-
-.cards_text a:visited {
-    color: #090808;
-}
-
-
- */
-
+/* MAIN */
 
 .main {
     width: 100%;
@@ -739,9 +705,6 @@ div article img {
     .child3 {
         width: 100%;
         padding: 20px 0 20px 0;
-    }
-    .cards_child {
-        width: 100%;
     }
     .container_cards {
         width: 100%;
