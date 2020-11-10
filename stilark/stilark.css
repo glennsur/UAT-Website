@@ -5,10 +5,11 @@ html {
     scroll-padding-top: 100px;
 }
 * {
+    text-decoration: none;
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
+
     font-family: "Montserrat", sans-serif;
 }
 body {
@@ -54,6 +55,31 @@ nav ul li a:hover {
     color: #9e1c36;
 }
 
+.navButton {
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: rgb(158, 28, 54);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.navButton:hover {
+    background-color: rgb(119, 14, 36);
+}
+
+.navButton a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
 /* NAVIGATION BAR LABEL */
 
 label #button,
@@ -69,6 +95,9 @@ label #X{
 #check {
     display: none;
 }
+
+
+
 
 /* MAIN */
 
@@ -295,7 +324,42 @@ h5 {
     color: #fafafa;
     margin: 0 10px 0 10px;
 }
+/* ABOUT US */
+
+.textButton {
+    text-decoration: none;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: rgb(158, 28, 54);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.textButton:hover {
+    background-color: rgb(119, 14, 36);
+}
+
+.textButton a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+.line {
+    background-color: #9e1c36;
+    height: 5px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+
+
+
 /* NEWS CARDS */
+
 .news_container {
     width: 100%;
     flex-wrap: wrap;
@@ -304,9 +368,8 @@ h5 {
 .news_card {
     position: relative;
     margin-bottom: 5px;
-    height: 370px;
+    height: 320px;
     width: 33%;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     transition: 0.5s ease-out;
 
 
@@ -331,17 +394,17 @@ h5 {
     position: absolute;
     box-sizing: border-box;
     overflow: hidden;
-    background: #fafafa;
+    background: rgba(0,0,0,0.8);
     padding: 12px;
     height: 100px;
     width: 100%;
     left: 0;
-    bottom: 50px;
+    bottom: 0;
 }
 
 h6 {
     text-align: center;
-    color: #9e1c36;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
@@ -417,6 +480,7 @@ div article img {
     color: #9e1c36;
     padding-bottom: 50px;
 }
+
 .main .sub2 {
     line-height: 44px;
     text-align: center;
@@ -442,6 +506,47 @@ div article img {
 .words {
     color: #9e1c36;
 }
+
+/* SOCIALS */
+
+
+.socials_container {
+    flex-wrap: wrap;
+}
+.socials_card {
+    background-color: #fafafa;
+    position: relative;
+    height: 75px;
+    width: 83.3333333333px;
+    transition: 0.3s ease-out;
+
+}
+.socials_card .socials_box {
+    position: static;
+    padding: 25px 32px;
+}
+.socials_card .socials_box i {
+    color: #0c0c0d;
+    font-size: 25px;
+}
+.socials_card:hover {
+    background-color: #9e1c36;
+}
+.socials_card:hover .socials_box i{
+   color: #fafafa;
+}
+
+.headerSocials p {
+    line-height: 44px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #9e1c36;
+    margin-bottom: 25px;
+}
+
+
 /* FOOTER */
 
 .footer {
@@ -778,6 +883,9 @@ div article img {
     .news_container {
         display: flex;
     }
+    .socials_container {
+        display: flex;
+    }
 }
 @media(max-width:760px) {
     .child {
@@ -826,8 +934,10 @@ div article img {
     h6 {
         margin-top: 15px;
     }
+    .socials_container {
+        display: flex;
+    }
 }
-
 
 
 
