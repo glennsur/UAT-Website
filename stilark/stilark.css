@@ -10,6 +10,7 @@ html {
     padding: 0;
     list-style: none;
     font-family: "Alternate Gothic No3 D", "Montserrat", sans-serif;
+
 }
 body {
     background-color: #ffffff;
@@ -46,6 +47,7 @@ nav ul li {
 nav ul li a {
     position: relative;
     font-family: "Alternate Gothic No3 D", "Montserrat", sans-serif;
+    letter-spacing: 2px;
     font-size: 18px;
     text-transform: uppercase;
     color: #090808;
@@ -66,6 +68,7 @@ nav ul li a:hover {
     font-weight: 400;
     font-size: 15px;
     color: #ffffff;
+    letter-spacing: 2px;
 }
 
 .navButton:hover {
@@ -95,10 +98,40 @@ label #X{
     display: none;
 }
 
+/* HERO */
 
+.hero .bilde {
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+}
+.bilde {
+    top: 4px;
+    padding-top: 80px;
+    height: 675px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
+    object-fit: cover;
+    position: relative;
+}
 
-
-/* MAIN */
+.bannerText {
+    color: #fafafa;
+    margin: 100px 15%;
+    position: absolute;
+    top: 7vw;
+    text-align: left;
+}
+h1 {
+    font-size: 2.5vw;
+    color: #9e1c36;
+}
+h2 {
+    font-size: 6vw;
+}
+h3 {
+    font-size: 6vw;
+}
 
 /* BOXES */
 
@@ -120,48 +153,6 @@ label #X{
     top: -50px;
 }
 
-/* HERO */
-
-.hero .bilde {
-    width: 100%;
-    text-align: left;
-    overflow: hidden;
-
-}
-
-.bilde {
-    top: 4px;
-    padding-top: 80px;
-    height: 675px;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
-    object-fit: cover;
-    position: relative;
-
-}
-
-.bannerText {
-    color: #fafafa;
-    margin: 100px 15%;
-    position: absolute;
-    top: 7vw;
-    text-align: left;
-
-}
-h1 {
-    font-size: 2.5vw;
-    color: #9e1c36;
-
-}
-h2 {
-    font-size: 6vw;
-
-}
-h3 {
-    font-size: 6vw;
-
-}
-
 /* BOXES LEFT DIV */
 
 .top {
@@ -178,6 +169,7 @@ h3 {
 }
 .leftText {
     padding: 10px 0px 0px 50px;
+    letter-spacing: 1px;
 }
 .leftButton {
     margin: 15px 0px 16px 50px;
@@ -191,6 +183,7 @@ h3 {
     font-weight: 400;
     font-size: 15px;
     color: #ffffff;
+    letter-spacing: 1px;
 }
 
 .leftButton:hover {
@@ -219,6 +212,7 @@ h3 {
 .rightText {
     padding: 10px 0px 0px 50px;
     color: #fafafa;
+    letter-spacing: 1px;
 }
 .rightButton {
     margin: 15px 0px 16px 50px;
@@ -232,6 +226,7 @@ h3 {
     font-weight: 400;
     font-size: 15px;
     color: #9e1c36;
+    letter-spacing: 1px;
 }
 .rightButton a:visited {
     text-decoration: none;
@@ -337,6 +332,7 @@ h5 {
     font-weight: 400;
     font-size: 15px;
     color: #ffffff;
+    letter-spacing: 1px;
 }
 
 .textButton:hover {
@@ -400,6 +396,7 @@ h5 {
     width: 100%;
     left: 0;
     bottom: 0;
+    letter-spacing: 2px;
 }
 
 h6 {
@@ -545,6 +542,7 @@ div article img {
     font-weight: 900;
     color: #9e1c36;
     margin-bottom: 25px;
+
 }
 
 
