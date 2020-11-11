@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @font-face {
-    src: url("fonts/Alternate Gothic No3 D Regular.otf");
-    font-family: "Alternate Gothic No3 D";
+    font-family: 'Alternate Gothic No3 D';
+    src: url('/fonts/AlternateGotNo3D.eot');
+    src: url('/fonts/AlternateGotNo3D.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/AlternateGotNo3D.woff2') format('woff2'),
+    url('/fonts/AlternateGotNo3D.woff') format('woff'),
+    url('/fonts/AlternateGotNo3D.ttf') format('truetype'),
+    url('/fonts/AlternateGotNo3D.svg#AlternateGotNo3D') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 html {
@@ -9,13 +17,13 @@ html {
     scroll-padding-top: 100px;
 }
 * {
-    text-decoration: none;
+    text-decoration: none; !important;
     margin: 0;
     padding: 0;
     list-style: none;
     font-family: "Alternate Gothic No3 D", "Montserrat", sans-serif;
-
 }
+
 body {
     background-color: #ffffff;
     margin: 0;
@@ -84,8 +92,14 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-
-
+.navButton a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+.navButton a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
 /* NAVIGATION BAR LABEL */
 
 label #button,
@@ -194,7 +208,7 @@ h3 {
     background-color: rgb(119, 14, 36);
 }
 
-.leftButton a:visited {
+.leftButton a:link {
     text-decoration: none;
     color: #ffffff;
 }
@@ -233,6 +247,10 @@ h3 {
     letter-spacing: 1px;
 }
 .rightButton a:visited {
+    text-decoration: none;
+    color: #9e1c36;
+}
+.rightButton a:link {
     text-decoration: none;
     color: #9e1c36;
 }
@@ -312,9 +330,11 @@ h5 {
 .konteiner a:visited {
     text-decoration: none;
     color: #fafafa;
-
 }
-
+.konteiner a:link {
+    text-decoration: none;
+    color: #fafafa;
+}
 .card:hover .konteiner p {
     transform: translateY(0);
     opacity: 1;
@@ -343,6 +363,10 @@ h5 {
 }
 
 .textButton a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+.textButton a:link {
     text-decoration: none;
     color: #ffffff;
 }
@@ -459,7 +483,7 @@ div article img {
     font-family: "Alternate Gothic No3 D", "Montserrat", sans-serif;
     font-size: 70px;
     font-weight: 900;
-    color: #189bac;
+    color: #9e1c36;
     text-transform: uppercase;
 }
 .main .sub {
