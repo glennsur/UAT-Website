@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @font-face {
     font-family: 'Alternate Gothic No3 D';
-    src: url('/fonts/AlternateGotNo3D.eot');
-    src: url('/fonts/AlternateGotNo3D.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/AlternateGotNo3D.woff2') format('woff2'),
-    url('/fonts/AlternateGotNo3D.woff') format('woff'),
-    url('/fonts/AlternateGotNo3D.ttf') format('truetype'),
-    url('/fonts/AlternateGotNo3D.svg#AlternateGotNo3D') format('svg');
+    src: url('fonts/AlternateGotNo3D.eot');
+    src: url('fonts/AlternateGotNo3D.eot?#iefix') format('embedded-opentype');
+    src: url('fonts/AlternateGotNo3D.woff2') format('woff2');
+    src: url('fonts/AlternateGotNo3D.woff') format('woff');
+    src: url('fonts/AlternateGotNo3D.ttf') format('truetype');
+    src: url('fonts/AlternateGotNo3D.svg#AlternateGotNo3D') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -483,7 +483,7 @@ div article img {
     font-family: "Alternate Gothic No3 D", "Montserrat", sans-serif;
     font-size: 70px;
     font-weight: 900;
-    color: #9e1c36;
+    color: #8b9e1c;
     text-transform: uppercase;
 }
 .main .sub {
