@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@font-face {font-family: "Alternate Gothic No3 D";
-    src: url("http://db.onlinewebfonts.com/t/1ab27b1a02a7fb1c4ebe805cff2694c3.eot"); /* IE9*/
-    src: url("http://db.onlinewebfonts.com/t/1ab27b1a02a7fb1c4ebe805cff2694c3.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/1ab27b1a02a7fb1c4ebe805cff2694c3.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/1ab27b1a02a7fb1c4ebe805cff2694c3.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/1ab27b1a02a7fb1c4ebe805cff2694c3.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/1ab27b1a02a7fb1c4ebe805cff2694c3.svg#Alternate Gothic No3 D") format("svg"); /* iOS 4.1- */
+@font-face {
+    src: url("fonts/Alternate Gothic No3 D Regular.otf");
+    font-family: "Alternate Gothic No3 D";
 }
 
 html {
@@ -463,7 +459,7 @@ div article img {
     font-family: "Alternate Gothic No3 D", "Montserrat", sans-serif;
     font-size: 70px;
     font-weight: 900;
-    color: #56ac18;
+    color: #189bac;
     text-transform: uppercase;
 }
 .main .sub {
