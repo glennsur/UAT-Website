@@ -460,7 +460,7 @@ div article img {
     text-transform: uppercase;
 }
 .main .sub {
-    line-height: 44px;
+    line-height: 80px;
     text-align: center;
     font-family: "Alternate Gothic No3 D", "Montserrat", sans-serif;
     font-weight: 500;
@@ -470,7 +470,7 @@ div article img {
 }
 .main h2 {
 
-    line-height: 44px;
+    line-height: 80px;
     text-align: center;
     font-family: "Alternate Gothic No3 D", "Montserrat", sans-serif;
     font-size: 70px;
@@ -964,6 +964,7 @@ div article img {
     }
     .cards_container2 news_imgbox {
         width: 100%;
+
     }
     .red {
         margin: 0 10px 0 -40px;
@@ -981,6 +982,7 @@ div article img {
     .socials_container {
         display: flex;
     }
+
 }
 
 
