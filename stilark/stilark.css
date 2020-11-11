@@ -450,8 +450,8 @@ div article img {
 }
 
 .main h1 {
-    margin: 115px 50px 0 50px;
-    line-height: 44px;
+    margin: 115px 0 0 0;
+    line-height: 80px;
     text-align: center;
     font-family: "Alternate Gothic No3 D", "Montserrat", sans-serif;
     font-size: 70px;
