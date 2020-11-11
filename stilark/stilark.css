@@ -299,6 +299,7 @@ h3 {
     top: 0;
     left: 0;
     transition: 0.5s;
+    object-fit: cover;
 }
 .card .konteiner {
     position: absolute;
@@ -420,6 +421,7 @@ h5 {
     top: 0;
     left: 0;
     transition: 0.5s;
+    object-fit: cover;
 }
 .news_card .news_text {
     position: absolute;
@@ -485,7 +487,7 @@ div article img {
 }
 
 .main h1 {
-    margin: 115px 0 0 0;
+    margin: 100px 0 0 0;
     line-height: 80px;
     text-align: center;
     font-family: "Alternate Gothic No3 D", "Montserrat", sans-serif;
@@ -494,6 +496,7 @@ div article img {
     color: #9e1c36;
     text-transform: uppercase;
 }
+
 .main .sub {
     line-height: 80px;
     text-align: center;
@@ -501,7 +504,8 @@ div article img {
     font-weight: 500;
     font-size: 25px;
     color: #0c0c0c;
-    padding-bottom: 50px;
+    margin-top: -50px;
+    padding-bottom: 25px;
 }
 .main h2 {
 
@@ -525,7 +529,7 @@ div article img {
 }
 
 .main p {
-    padding: 50px 50px;
+    padding: 50px 30px;
     line-height: 24px;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
@@ -539,6 +543,7 @@ div article img {
 .words {
     color: #9e1c36;
 }
+
 
 /* SOCIALS */
 
@@ -833,6 +838,10 @@ div article img {
     .socials_card .socials_box i{
         font-size: 40px;
     }
+    .konteiner p {
+        margin: -20px 0 -80px -30px;
+        text-align: left;
+    }
 }
 @media(max-width:760px){
     .bannerText {
@@ -867,6 +876,7 @@ div article img {
     .socials_card .socials_box i{
         font-size: 30px;
     }
+
 }
 @media(max-width:600px){
     .bannerText {
@@ -902,7 +912,14 @@ div article img {
     .socials_card .socials_box i{
         font-size: 30px;
     }
-
+    .image5 {
+        width: 100%;
+        height: 400px;
+    }
+    .image5 img {
+        object-fit: cover;
+        height: 400px;
+    }
 }
 @media(max-width:450px){
     .bannerText {
@@ -1032,13 +1049,13 @@ div article img {
     }
     .news_card {
         width: 100%;
-        height: 500px;
+        height: 300px;
     }
     .konteiner p {
-        margin: 0 0 -60px 0;
+        margin: 0 0 -60px 100px;
         text-align: left;
     }
-    .cards_container2 news_imgbox {
+    .cards_container2 .news_imgbox {
         width: 100%;
 
     }
@@ -1058,8 +1075,15 @@ div article img {
     .socials_container {
         display: flex;
     }
+    .news_card .news_imgbox {
+        height: 100%;
+    }
+    .news_card .news_imgbox img{
+        top: 0;
+    }
 
 }
+
 
 
 
