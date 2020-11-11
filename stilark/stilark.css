@@ -1004,6 +1004,9 @@ div article img {
     .words {
         display: block;
     }
+    .hero .bannerText span {
+        display: block;
+    }
 }
 
 @media(max-width:375px) {
@@ -1011,7 +1014,7 @@ div article img {
         color: #fafafa;
         margin: 100px 5%;
         position: absolute;
-        top: 75px;
+        top: 10px;
         text-align: left;
     }
 
@@ -1033,6 +1036,12 @@ div article img {
 
     nav img {
         left: 5%;
+    }
+    .words {
+        display: block;
+    }
+    .hero .bannerText span {
+        display: block;
     }
 }
 
