@@ -126,7 +126,7 @@ label #X{
 .bilde {
     top: 4px;
     padding-top: 80px;
-    height: 675px;
+    height: 680px;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
     object-fit: cover;
@@ -514,7 +514,7 @@ div article img {
     font-weight: 500;
     font-size: 25px;
     color: #0c0c0c;
-    margin-top: -50px;
+    margin-top: -30px;
     padding-bottom: 25px;
 }
 .main h2 {
@@ -772,7 +772,7 @@ div article img {
         color: #fafafa;
         margin: 100px 10%;
         position: absolute;
-        top: 9vw;
+        top: 8vw;
         text-align: left;
     }
 
@@ -790,7 +790,9 @@ div article img {
     nav img {
         left: 10%;
     }
-
+    .bilde {
+        height: 610px;
+    }
 }
 
 @media(max-width:1200px){
@@ -798,7 +800,7 @@ div article img {
         color: #fafafa;
         margin: 100px 10%;
         position: absolute;
-        top: 10vw;
+        top: 8vw;
         text-align: left;
     }
 
@@ -816,13 +818,17 @@ div article img {
     nav img {
         left: 10%;
     }
+    .bilde {
+        height: 600px;
+    }
+
 }
 @media(max-width:900px){
     .bannerText {
         color: #fafafa;
         margin: 100px 8%;
         position: absolute;
-        top: 14vw;
+        top: 10vw;
         text-align: left;
     }
 
@@ -842,6 +848,9 @@ div article img {
     }
     nav img {
         left: 8%;
+    }
+    .bilde {
+        height: 595px;
     }
 
 }
@@ -866,13 +875,15 @@ div article img {
     .main p {
         padding: 10px 30px;
     }
+
+
 }
 @media(max-width:760px){
     .bannerText {
         color: #fafafa;
         margin: 100px 5%;
         position: absolute;
-        top: 14vw;
+        top: 10vw;
         text-align: left;
 }
 
@@ -900,6 +911,9 @@ div article img {
     .socials_card .socials_box i{
         font-size: 30px;
     }
+    .bilde {
+        height: 590px;
+    }
 
 }
 @media(max-width:600px){
@@ -907,7 +921,7 @@ div article img {
         color: #fafafa;
         margin: 100px 5%;
         position: absolute;
-        top: 18vw;
+        top: 12vw;
         text-align: left;
     }
 
@@ -952,13 +966,16 @@ div article img {
         object-fit: cover;
         height: 400px;
     }
+    .bilde {
+        height: 580px;
+    }
 }
 @media(max-width:450px){
     .bannerText {
         color: #fafafa;
         margin: 100px 5%;
         position: absolute;
-        top: 50px;
+        top: 10px;
         text-align: left;
     }
 
@@ -1007,6 +1024,9 @@ div article img {
     .hero .bannerText span {
         display: block;
     }
+    .bilde {
+        height: 580px;
+    }
 }
 
 @media(max-width:375px) {
@@ -1042,6 +1062,9 @@ div article img {
     }
     .hero .bannerText span {
         display: block;
+    }
+    .bilde {
+        height: 555px;
     }
 }
 
