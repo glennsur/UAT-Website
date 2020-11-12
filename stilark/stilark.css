@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @font-face {
     font-family: 'Alternate Gothic No3 D';
-    src: url('fonts/AlternateGotNo3D.eot');
+    src: url('fonts/AlternateGotNo3D.otf.otf'); format('opentype');
+    src: url('fonts/AlternateGotNo3D.eot'); format('embedded-opentype');
     src: url('fonts/AlternateGotNo3D.eot?#iefix') format('embedded-opentype');
     src: url('fonts/AlternateGotNo3D.woff2') format('woff2');
     src: url('fonts/AlternateGotNo3D.woff') format('woff');
-    src: url('fonts/AlternateGotNo3D.ttf') format('truetype');
-    src: url('fonts/AlternateGotNo3D.svg') format('svg');
+    src: url('fonts/AlternateGotNo3D.ttf.ttf') format('truetype');
+    src: url('fonts/AlternateGotNo3D.svg.svg') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
